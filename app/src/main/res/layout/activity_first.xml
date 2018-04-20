@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#12005e"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".FirstActivity">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/iv_pnr"
+            android:src="@drawable/ic_search_white_24dp"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_pnr"
+            android:layout_toEndOf="@id/iv_pnr"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/tv_pnr"
+            android:textColor="#ffffff"
+            android:text="PNR Status Prediction"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/view_pnr"
+            android:layout_below="@id/tv_pnr"
+            android:layout_margin="5dp"
+            android:background="#c7c6c6"
+            />
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/ic_history_white_24dp"
+            android:id="@+id/iv_history"
+            android:layout_below="@id/view_pnr"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_history"
+            android:layout_toEndOf="@id/iv_history"
+            android:layout_below="@id/view_pnr"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/tv_history"
+            android:textColor="#ffffff"
+            android:text="Show History"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/view_history"
+            android:layout_below="@id/tv_history"
+            android:layout_margin="5dp"
+            android:background="#c7c6c6"
+            />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/iv_about_us"
+            android:layout_below="@id/view_history"
+            android:src="@drawable/ic_info_outline_white_24dp"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_about_us"
+            android:layout_toEndOf="@id/iv_about_us"
+            android:layout_below="@id/view_history"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/tv_about_us"
+            android:textColor="#ffffff"
+            android:text="About Us"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/view_about_us"
+            android:layout_below="@id/tv_about_us"
+            android:layout_margin="5dp"
+            android:background="#c7c6c6"
+            />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/iv_exit"
+            android:src="@drawable/ic_exit_to_app_white_24dp"
+            android:layout_below="@id/view_about_us"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_exit"
+            android:layout_toEndOf="@id/iv_exit"
+            android:layout_below="@id/view_about_us"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/tv_exit"
+            android:textColor="#ffffff"
+            android:text="Exit"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/view_exit"
+        android:layout_below="@id/tv_exit"
+        android:layout_margin="5dp"
+        android:background="#c7c6c6"
+        />
+
+</RelativeLayout>
